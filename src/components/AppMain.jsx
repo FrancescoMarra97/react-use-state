@@ -7,6 +7,15 @@ export default function AppMain() {
                 <div>
                     <button>HTML</button>
                 </div>
+
+                <div className="card">
+                    <div className="card-header">
+                        <h3>Titolo</h3>
+                    </div>
+                    <div className="card-body">
+                        <p>Description</p>
+                    </div>
+                </div>
             </div>
         </main>
     )

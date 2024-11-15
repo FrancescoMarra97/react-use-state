@@ -22,10 +22,10 @@ export default function AppMain() {
 
                 <div className="card">
                     <div className="card-header">
-                        <h3>Titolo</h3>
+                        <h3>{languages[active].title}</h3>
                     </div>
                     <div className="card-body">
-                        <p>Description</p>
+                        <p>{languages[active].description}</p>
                     </div>
                 </div>
             </div>

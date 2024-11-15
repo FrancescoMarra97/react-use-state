@@ -1,10 +1,12 @@
-export default function AppMain() {
+import { useState } from 'react'
 
+export default function AppMain() {
+    const [active, setActive] = useState(0)
 
     return (
         <main>
             <div className="container">
-                <div>
+                <div className="snippet">
                     <button>HTML</button>
                 </div>
 

@@ -16,6 +16,41 @@ header {
   margin: auto;
 }
 
+.snippet {
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid lightgray;
+
+
+}
+
+.card-header {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.card-body {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
 .hide {
   display: none;
+}
+
+button {
+  background-color: blue;
+  /* Verde */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
 }

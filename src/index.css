@@ -36,13 +36,12 @@ header {
   padding: 1rem;
 }
 
-.hide {
+/* .hide {
   display: none;
-}
+} */
 
 button {
   background-color: blue;
-  /* Verde */
   border: none;
   color: white;
   padding: 12px 20px;

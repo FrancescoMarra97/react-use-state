@@ -6,7 +6,9 @@ export default function AppMain() {
     const [active, setActive] = useState(0)
 
     function handleClick(e) {
-        console.log(active);
+        const newActvie = Number(e.target.getAttribute("data-index"))
+        console.log(newActvie);
+        setActive(newActvie)
 
     }
 
@@ -16,7 +18,7 @@ export default function AppMain() {
             <div className="container">
                 <div className="snippet">
                     {Languages.map((language, index) =>
-                        <button key={language.id}>{language.title}</button>
+                        <button key={language.id} data-index={index} onClick={handleClick}>{language.title}</button>
                     )}
                 </div>
 
